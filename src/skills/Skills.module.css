@@ -1,5 +1,19 @@
 .skills {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 66, 66);
+    flex-wrap: wrap;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.skillsContainer {
+    display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
 }

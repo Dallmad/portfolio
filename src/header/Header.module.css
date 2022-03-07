@@ -1,5 +1,5 @@
 .header {
-    height: 80px;
-    background-color: #b2babe;
-
+    min-height: 60px;
+    position: fixed;
+    width: 100%;
 }

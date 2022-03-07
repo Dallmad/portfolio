@@ -1,0 +1,7 @@
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #152331;
+    flex-wrap: wrap;
+}

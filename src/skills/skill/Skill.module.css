@@ -1,3 +1,23 @@
-.skill {
-    margin: 10px 0;
+.skillContainer {
+    margin: 20px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(0deg,#777,#ccc,#ccc);
+    border-radius: 10px;
+}
+
+.img {
+    width: 100px;
+}
+
+.title {
+    position: center;
+    margin: -10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #383434;
 }

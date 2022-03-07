@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(115, 107, 109, 0.25);
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containerForTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.span {
+    font-size: 20px;
+    text-decoration: underline #9f0d0d;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.img {
+    width: 300px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.31);
+}
