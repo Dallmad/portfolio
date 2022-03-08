@@ -16,11 +16,13 @@ export const Skills = () => {
     ]
 
     return (
-        <div className={s.skills}>
+
+        <div id='skills' className={s.skills}>
             <h2 className={s.title}>SKILLS</h2>
             <div className={s.skillsContainer}>
                 {skills.map( s => <Skill key={s.id} title={s.title} img={s.img}/>)}
             </div>
         </div>
+
     );
 }

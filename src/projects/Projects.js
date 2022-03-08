@@ -3,7 +3,7 @@ import {Project} from "./project/Project";
 
 export const Projects = () => {
     return (
-        <div className={s.projects}>
+        <div id='projects' className={s.projects}>
             <Project/>
             <Project/>
             <Project/>

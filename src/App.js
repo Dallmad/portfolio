@@ -8,6 +8,7 @@ import {Contacts} from "./contacts/Contacts";
 import {Main} from "./main/Main";
 
 
+
 function App() {
     return (
         <div className='App'>
@@ -17,7 +18,7 @@ function App() {
             </div>
             <div className='container'>
                 <Profile/>
-                <Skills/>
+                <Skills id={'skills'}/>
                 <Educations/>
                 <Projects/>
                 <Contacts/>

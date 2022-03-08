@@ -14,16 +14,23 @@
 }
 
 .span {
+    margin: 10px;
     font-size: 20px;
     text-decoration: underline #9f0d0d;
 }
-
+/*.divForWelcome {
+margin-left: 20px;
+    margin-top: -10px;
+    text-decoration: overline #9f0d0d;
+color: rgba(0, 0, 0, 0);
+}*/
 .title {
+    margin: 10px 30px;
     font-weight: 900;
 }
 
 .img {
     width: 300px;
-    margin: 10px;
+    margin: 20px;
     background-color: rgba(255, 255, 255, 0.31);
 }
