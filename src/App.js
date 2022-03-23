@@ -18,7 +18,7 @@ function App() {
             </div>
             <div className='container'>
                 <Profile/>
-                <Skills id={'skills'}/>
+                <Skills/>
                 <Educations/>
                 <Projects/>
                 <Contacts/>
