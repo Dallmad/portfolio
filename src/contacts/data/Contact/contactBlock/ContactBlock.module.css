@@ -1,0 +1,25 @@
+.contactBlock {
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.link {
+    margin: 0px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}

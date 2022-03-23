@@ -1,8 +1,21 @@
 .contacts {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     background-color: #1a1a2a;
     color: #b2babe;
-    height: 100vh;
+    height: 100%;
+}
+.block {
+    /*flex-direction: column;*/
+}
+h2 {
+    text-align: center;
+}
+.data {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    /*justify-content: space-around;*/
+    flex-wrap: wrap;
 }
