@@ -17,8 +17,8 @@
 .text {
     max-height: 300px;
     margin: 30px 0 20px 0;
-    padding: 11px;
-    width: 93%;
+    padding-top: 10px;
+    width: 98%;
     height: 100px;
     resize: none;
 }

@@ -4,6 +4,7 @@
     align-items: center;
     background-color: #1a1a2a;
     color: #b2babe;
+    padding: 5px;
 }
 .block {
     flex-direction: column;
