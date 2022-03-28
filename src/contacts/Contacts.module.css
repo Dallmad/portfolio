@@ -9,6 +9,9 @@
 .block {
     flex-direction: column;
 }
+.title {
+    margin-top: 65px;
+}
 h2 {
     text-align: center;
 }

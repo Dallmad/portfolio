@@ -6,7 +6,7 @@ export const Contacts = () => {
     return (
         <div id='contacts' className={s.contacts}>
             <div className={s.block}>
-                <h2>CONTACT</h2>
+                <h2 className={s.title}>CONTACT</h2>
                 <div className={s.data}>
                     <Contact/>
                     <Data/>
