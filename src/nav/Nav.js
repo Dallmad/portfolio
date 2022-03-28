@@ -17,7 +17,6 @@ export const Nav = () => {
         {id: 'skills',title: 'Skills'},
         {id: 'projects',title: 'Projects'},
         {id: 'contacts',title: 'Contact'},
-        {id: 'main',title: 'GitHub'}
     ]
     const onClickHandler = (id) => document.
     getElementById(id).
@@ -29,6 +28,7 @@ export const Nav = () => {
                 title={'text'}
                 className={s.div}
                 onClick={()=>onClickHandler(p.id)}
+                key={p.id}
             >{p.title}</div>)}
         </div>
     )
