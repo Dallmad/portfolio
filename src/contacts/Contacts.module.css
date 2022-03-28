@@ -1,13 +1,12 @@
 .contacts {
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
+    align-items: center;
     background-color: #1a1a2a;
     color: #b2babe;
-    height: 500px;
 }
 .block {
-    /*flex-direction: column;*/
+    flex-direction: column;
 }
 h2 {
     text-align: center;
@@ -16,6 +15,5 @@ h2 {
     margin-top: 60px;
     width: 100%;
     display: flex;
-    /*justify-content: space-around;*/
     flex-wrap: wrap;
 }
