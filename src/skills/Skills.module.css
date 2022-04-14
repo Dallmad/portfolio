@@ -5,11 +5,7 @@
     align-items: center;
     background-color: rgb(66, 66, 66);
     flex-wrap: wrap;
-}
 
-.title {
-    font-weight: 700;
-    margin-top: 65px;
 }
 
 .skillsContainer {
@@ -17,4 +13,5 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 65px;
 }

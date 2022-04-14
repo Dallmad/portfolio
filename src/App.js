@@ -24,7 +24,7 @@ function App() {
                 <Contacts/>
             </div>
         </div>
-    );
+    )
 }
 
 export default App;

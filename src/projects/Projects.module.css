@@ -3,11 +3,10 @@
     flex-direction: column;
     background-color: #152331;
 }
-.title {
-    margin-top: 65px;
-}
+
 .block {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 65px;
 }

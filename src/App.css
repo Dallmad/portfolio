@@ -20,3 +20,8 @@
     margin: 0 auto;
     width: 80%;
 }
+h2 {
+    font-weight: 700;
+    margin-top: 65px;
+    text-align: center;
+}
