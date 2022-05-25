@@ -1,15 +1,18 @@
 import s from './Main.module.css';
+import foto from '../assets/images/foto_main.jpg'
 
 export const Main = () => {
     return (
         <div id='main' className={s.main}>
             <div className={s.containerForTitle}>
                 <span className={s.span}>Welcome</span>
-                {/*<div className={s.divForWelcome}>helllooooo</div>*/}
-                <h1 className={s.title}>I'm Dzmitry Yakubyshyn</h1>
+                <>
+                    <span className={s.span_secondLine}>I'm</span>
+                    <p className={s.title}>Dzmitry Yakubyshyn</p>
+                </>
             </div>
             <div>
-                <img className={s.img} src={'https://ksim.ru/img/empty-square.png'} alt={'my photo'}/>
+                <img className={s.img} src={foto} alt={'my photo'}/>
             </div>
         </div>
     );

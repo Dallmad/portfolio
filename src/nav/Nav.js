@@ -3,14 +3,6 @@ import s from './Nav.module.css';
 
 export const Nav = () => {
 
-    // const pages = [
-    //     {title: 'Home', x:0, y:0},
-    //     {title: 'About', x:0, y: document.getElementById('asfa')},
-    //     {title: 'Skills', x:0, y: 697},
-    //     {title: 'Projects', x:0, y: 1343},
-    //     {title: 'Contact', x:0, y: 1845},
-    //     {title: 'GitHub', x:0, y: 0}
-    // ]
     const pages = [
         {id: 'main',title: 'Home'},
         {id: 'profile',title: 'About'},
