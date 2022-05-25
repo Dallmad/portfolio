@@ -1,5 +1,5 @@
 import s from './Main.module.css';
-import foto from '../assets/images/foto_main.jpg'
+import foto from '../assets/images/99.jpg'
 
 export const Main = () => {
     return (
