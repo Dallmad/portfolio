@@ -4,8 +4,12 @@ export const Profile = () => {
     return (
         <div id='profile' className={s.profile}>
             <h2 className={s.title}>ABOUT ME</h2>
-            <p className={s.text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deleniti dolorum est eveniet illum necessitatibus perferendis quod sequi unde ut! Aperiam at atque blanditiis distinctio dolor doloribus error impedit iure, laborum, natus nemo perspiciatis placeat quasi quibusdam quos recusandae saepe totam ullam unde ut. Accusantium, ad assumenda consequatur distinctio eaque earum enim, illo ipsum laboriosam magnam maiores, maxime molestiae molestias necessitatibus nemo neque odio praesentium provident qui sint tempore tenetur vitae! Cumque, dignissimos dolores ducimus earum excepturi ipsum nam pariatur ratione recusandae vero! Cumque error exercitationem, fuga itaque minima natus quaerat quisquam repellendus suscipit voluptatibus? Autem nobis soluta tenetur ullam.
-        </p>
+            <p className={s.text}>
+                I'm a frontend developer with experience in creating SPA using React, Redux, TypeScript, JavaScript,
+                CSS, HTML. Learning is my passion. I'm continuously improving my English, studying new technologies and
+                solving tasks on Codewars in my spare time. One of my goals is to study Node.js. Also, my strengths are
+                great analytical skills, responsibility and stress resistance.
+            </p>
         </div>
     )
 }
