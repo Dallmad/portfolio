@@ -1,5 +1,5 @@
 import s from './Projects.module.css';
-import {Project} from "./project/Project";
+import {Project} from './project/Project';
 import logo from '../assets/images/git_logo.png'
 
 export const Projects = () => {

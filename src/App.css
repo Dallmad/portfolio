@@ -30,3 +30,6 @@ h2 {
     line-height: 1.2;
     font-size: 28px;
 }
+h1 h3 h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
