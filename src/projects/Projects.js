@@ -4,9 +4,9 @@ import logo from '../assets/images/git_logo.png'
 
 export const Projects = () => {
     const projects = [
-        {title: 'Social Neetwork', description:'adfad',logo},
-        {title: 'Todolist', description:'sfffffffff',logo},
-        {title: 'Cards', description:'rrrrrrrrrrrrrrrrr',logo}
+        {title: 'Social Neetwork', description:'adfad',logo,link:''},
+        {title: 'Todolist', description:'sfffffffff',logo,link:''},
+        {title: 'Cards', description:'rrrrrrrrrrrrrrrrr',logo,link:'https://dallmad.github.io/my_friday/'}
     ]
 
     return (
@@ -18,6 +18,7 @@ export const Projects = () => {
                             title={p.title}
                             description={p.description}
                             logo={p.logo}
+                            link={p.link}
                             key={p + i}/>
                 )}
             </div>
