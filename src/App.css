@@ -20,8 +20,13 @@
     margin: 0 auto;
     width: 80%;
 }
+
 h2 {
     font-weight: 700;
     margin-top: 65px;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    font-size: 28px;
 }

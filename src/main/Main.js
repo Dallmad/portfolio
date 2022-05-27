@@ -1,15 +1,15 @@
 import s from './Main.module.css';
-import foto from '../assets/images/99.jpg'
+import foto from '../assets/images/foto.jpg'
 
 export const Main = () => {
     return (
         <div id='main' className={s.main}>
             <div className={s.containerForTitle}>
                 <span className={s.span}>Welcome</span>
-                <>
+                <div>
                     <span className={s.span_secondLine}>I'm</span>
-                    <p className={s.title}>Dzmitry Yakubyshyn</p>
-                </>
+                    <span className={s.title}>Dzmitry Yakubyshyn</span>
+                </div>
             </div>
             <div>
                 <img className={s.img} src={foto} alt={'my photo'}/>

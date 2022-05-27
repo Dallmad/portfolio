@@ -16,12 +16,12 @@ export const Nav = () => {
 
     return (
         <div className={s.nav}>
-            {pages.map( p => <div
+            {pages.map( p => <h2
                 title={'text'}
                 className={s.div}
                 onClick={()=>onClickHandler(p.id)}
                 key={p.id}
-            >{p.title}</div>)}
+            >{p.title}</h2>)}
         </div>
     )
 }
