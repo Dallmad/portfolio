@@ -1,13 +1,9 @@
 import s from './Project.module.css';
-import {NavLink, useNavigate,Navigate} from 'react-router-dom';
-import {useState} from "react";
 
 export const Project = ({title, description,logo,link}) => {
 
-    let navigate = useNavigate()
-
     const logoHandler = () => {
-       navigate(link)
+        window.open(link)
     }
 
     return (
