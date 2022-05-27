@@ -4,7 +4,7 @@ import logo from '../assets/images/git_logo.png'
 
 export const Projects = () => {
     const projects = [
-        {title: 'Social Neetwork', description:'adfad',logo,link:''},
+        {title: 'Social Neetwork', description:'adfad',logo,link:'https://dallmad.github.io/social_network_samurai/'},
         {title: 'Todolist', description:'sfffffffff',logo,link:''},
         {title: 'Cards', description:'rrrrrrrrrrrrrrrrr',logo,link:'https://dallmad.github.io/my_friday/'}
     ]
