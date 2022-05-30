@@ -4,9 +4,9 @@ import logo from '../assets/images/git_logo.png'
 
 export const Projects = () => {
     const projects = [
-        {title: 'Social Neetwork', description:'adfad',logo,link:'https://dallmad.github.io/social_network_samurai/'},
-        {title: 'Todolist', description:'sfffffffff',logo,link:''},
-        {title: 'Cards', description:'rrrrrrrrrrrrrrrrr',logo,link:'https://dallmad.github.io/my_friday/'}
+        {title: 'Social Neetwork', description:'SPA for social actions - messaging and blogging.',logo,linkToGHPage:'https://dallmad.github.io/social_network_samurai/', linkToCode:'https://github.com/Dallmad/social_network_samurai'},
+        {title: 'Todolist', description:'SPA for managing to-do lists and their items.',logo,linkToGHPage:'',linkToCode:'https://github.com/Dallmad/it-incubator-todolist'},
+        {title: 'Cards', description:'SPA for learning by cards.',logo,linkToGHPage:'https://dallmad.github.io/my_friday/',linkToCode:'https://github.com/Dallmad/my_friday'}
     ]
 
     return (
@@ -18,7 +18,8 @@ export const Projects = () => {
                             title={p.title}
                             description={p.description}
                             logo={p.logo}
-                            link={p.link}
+                            linkToGHPage={p.linkToGHPage}
+                            linkToCode={p.linkToCode}
                             key={p + i}/>
                 )}
             </div>

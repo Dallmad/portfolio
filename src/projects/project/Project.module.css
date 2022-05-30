@@ -3,6 +3,7 @@
     padding: 3px;
     display: flex;
     flex-direction: column;
+    width: 280px;
 }
 .logo {
     width: 280px;
@@ -22,4 +23,9 @@
 }
 .description {
     font-family: 'Source Sans Pro', sans-serif;
+}
+.button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
 }

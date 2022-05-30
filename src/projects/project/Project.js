@@ -1,9 +1,9 @@
 import s from './Project.module.css';
 
-export const Project = ({title, description,logo,link}) => {
+export const Project = ({title, description, logo, linkToGHPage, linkToCode}) => {
 
     const logoHandler = () => {
-        window.open(link)
+        window.open(linkToGHPage)
     }
 
     return (
@@ -22,7 +22,9 @@ export const Project = ({title, description,logo,link}) => {
             </h3>
             <div className={s.description}>
                 {description}
+                <a href={linkToCode} className={s.button}>...more</a>
             </div>
+
         </div>
 
     );
