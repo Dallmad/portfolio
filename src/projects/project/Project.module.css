@@ -24,8 +24,51 @@
 .description {
     font-family: 'Source Sans Pro', sans-serif;
 }
-.button {
+.link {
     background-color: inherit;
     border: none;
     cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.bigModal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+/*    left: 0%;
+    top: 0px;*/
+    /*transform: translate(180px, 250px);*/
+/*    left: 434px;
+    top: 96px;*/
+    background: #F9F9FE;
+    border-radius: 8px;
+}
+
+.modal .titleModal {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+
+}
+
+.modal .containerBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.modal .containerBtn button{
+    background: #D7D8EF;
+    color: #21268F;
+}
+m {
+    display: flex;
+    justify-content: center;
 }
