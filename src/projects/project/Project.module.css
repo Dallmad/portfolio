@@ -3,19 +3,17 @@
     padding: 3px;
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 320px;
 }
 .logo {
-    width: 280px;
-    border: 1px solid #9f0d0d;
+    width: 320px;
+ /*   border: 1px solid #9f0d0d;*/
     cursor: pointer;
 }
-.logo_wrapper:hover {
-    background: rgba(0,0,0,0.3);
+.logo:hover {
+    opacity: 0.4;
 }
-.logo_wrapper:hover .logo{
-    visibility: visible;
-}
+
 .title {
     display: flex;
     justify-content: center;

@@ -9,3 +9,10 @@
     margin: 0 20px;
     cursor: pointer;
 }
+
+.logo:active {
+    width: 40px;
+}
+.logo:hover {
+    opacity: 0.6;
+}

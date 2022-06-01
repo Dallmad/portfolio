@@ -18,7 +18,9 @@ export const Footer = () => {
     return (
         <div className={s.container}>
             {footerContainer.map( (f, i) =>
-            <img src={f.logo} key={f+i} onClick={()=>logoHandler(f.link)} className={s.logo}/>
+                <div key={f+i} className={s.logo_wrapper}>
+                    <img src={f.logo}  onClick={()=>logoHandler(f.link)} className={s.logo}/>
+                </div>
             )}
         </div>
     );
