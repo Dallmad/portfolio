@@ -16,12 +16,19 @@ export const Footer = () => {
     }
 
     return (
-        <div className={s.container}>
-            {footerContainer.map( (f, i) =>
-                <div key={f+i} className={s.logo_wrapper}>
-                    <img src={f.logo}  onClick={()=>logoHandler(f.link)} className={s.logo}/>
-                </div>
-            )}
-        </div>
+        <>
+            <div className={s.container}>
+                {footerContainer.map( (f, i) =>
+                    <div key={f+i} className={s.logo_wrapper}>
+                        <img src={f.logo}  onClick={()=>logoHandler(f.link)} className={s.logo}/>
+                    </div>
+                )}
+
+            </div>
+            <div className={s.text}>
+                © 2022 All Rights Reserved.
+            </div>
+        </>
+
     );
 }

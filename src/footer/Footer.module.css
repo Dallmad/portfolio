@@ -16,3 +16,9 @@
 .logo:hover {
     opacity: 0.6;
 }
+.text {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
