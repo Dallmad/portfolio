@@ -7,8 +7,8 @@
 }
 .logo {
     width: 320px;
- /*   border: 1px solid #9f0d0d;*/
     cursor: pointer;
+    border-radius: 10px;
 }
 .logo:hover {
     opacity: 0.4;

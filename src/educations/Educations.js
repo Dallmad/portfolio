@@ -10,7 +10,7 @@ export const Educations = () => {
     ]
     return (
         <div className={s.educations}>
-            <h2 className={s.title}>EDUCATION</h2>
+            <h2>EDUCATION</h2>
             <div className={s.educationsContainer}>
                 {educations.map(e =>
                     <Education
