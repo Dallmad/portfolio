@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(66, 66, 66);
+    background-color: inherit;
+    /*background-color: rgb(66, 66, 66);*/
     flex-wrap: wrap;
 
 }
@@ -14,4 +15,5 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 65px;
+    max-width: 70%;
 }

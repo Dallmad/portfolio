@@ -1,6 +1,7 @@
 .profile {
     text-align: center;
-    background-color: #444d4d;
+    background-color: inherit;
+/*    background-color: #444d4d;*/
     padding: 10px;
 }
 

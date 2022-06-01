@@ -1,7 +1,8 @@
 .projects {
     display: flex;
     flex-direction: column;
-    background-color: #152331;
+    background-color: inherit;
+/*    background-color: #152331;*/
 }
 
 .block {

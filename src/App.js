@@ -6,6 +6,7 @@ import {Educations} from "./educations/Educations";
 import {Projects} from "./projects/Projects";
 import {Contacts} from "./contacts/Contacts";
 import {Main} from "./main/Main";
+import {Footer} from "./footer/Footer";
 
 
 
@@ -22,6 +23,7 @@ function App() {
                 <Educations/>
                 <Projects/>
                 <Contacts/>
+                <Footer/>
             </div>
         </div>
     )

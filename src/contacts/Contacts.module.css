@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1a1a2a;
+    background-color: inherit;
+/*    background-color: #1a1a2a;*/
     color: #b2babe;
     padding: 5px;
 }
