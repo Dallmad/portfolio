@@ -11,6 +11,7 @@ export const Footer = () => {
         {name:'gitHub', logo:git, link:'https://github.com/Dallmad'},
         {name:'telegram', logo:telegram, link:'https://github.com/Dallmad'},
     ]
+
     const logoHandler = (link) => {
         window.open(link)
     }
@@ -23,7 +24,6 @@ export const Footer = () => {
                         <img src={f.logo}  onClick={()=>logoHandler(f.link)} className={s.logo}/>
                     </div>
                 )}
-
             </div>
             <div className={s.text}>
                 © 2022 All Rights Reserved.
