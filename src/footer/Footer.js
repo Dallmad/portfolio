@@ -1,6 +1,6 @@
 
 import s from './Footer.module.css';
-import git from '../assets/images/second_logo_github.png'
+import git from '../assets/images/git_logo.png'
 import linkedIn from '../assets/images/logo_linkedIn.png'
 import telegram from '../assets/images/logo_telegram.png'
 
