@@ -1,15 +1,15 @@
 import s from './Skills.module.css';
 import {Skill} from "./skill/Skill";
 import {v1} from "uuid";
-import html from '../assets/images/html5_logo.png'
-import css from '../assets/images/css3_logo.png'
-import js from '../assets/images/JS_logo.png'
-import ts from '../assets/images/TS_logo.jpg'
-import react from '../assets/images/react_logo.png'
-import redux from '../assets/images/redux_logo.png'
-import git from '../assets/images/git_logo.png'
-import sass from '../assets/images/sass_logo.png'
-import postman from '../assets/images/postman_logo.png'
+import html from '../assets/images/logo_html5.png'
+import css from '../assets/images/logo_css3.png'
+import js from '../assets/images/logo_JS.png'
+import ts from '../assets/images/logo_TS.jpg'
+import react from '../assets/images/logo_react.png'
+import redux from '../assets/images/logo_redux.png'
+import git from '../assets/images/logo_git.png'
+import sass from '../assets/images/logo_sass.png'
+import postman from '../assets/images/logo_postman.png'
 
 export const Skills = () => {
 
