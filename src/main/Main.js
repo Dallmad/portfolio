@@ -14,10 +14,7 @@ export const Main = () => {
                         <span className={s.title}>Dzmitry Yakubyshyn</span>
                     </div>
                 </div>
-                <Tilt options={{
-                    max: 45,
-
-                }}>
+                <Tilt options={{max: 45}}>
                     <div>
                         <img className={s.img} src={foto} alt={'my photo'}/>
                     </div>

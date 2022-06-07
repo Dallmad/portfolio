@@ -1,6 +1,7 @@
 @import '../common/styles/mixins';
 
 .main {
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   background-color: rgba(115, 107, 109, 0.25);
@@ -38,7 +39,6 @@
     background-color: rgba(255, 255, 255, 0.31);
     border: 4px solid rgba(255, 255, 255, 0.42);
     border-radius: 50px;
-
   }
 }
 

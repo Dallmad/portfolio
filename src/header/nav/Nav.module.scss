@@ -1,5 +1,5 @@
-@import '../common/styles/variables';
-@import '../common/styles/mixins';
+@import '../../common/styles/variables';
+@import '../../common/styles/mixins';
 
 .nav {
   display: flex;
@@ -15,5 +15,12 @@
     padding: 3px;
     margin: 15px 35px;
     cursor: pointer;
+    &:hover {
+      color: #6c7173;
+      transition: 0.5s;
+    }
+  }
+  @media screen and (max-width: 804px) {
+    display: none;
   }
 }

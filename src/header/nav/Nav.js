@@ -11,8 +11,7 @@ export const Nav = () => {
         {id: 'contacts',title: 'Contact'},
     ]
     const onClickHandler = (id) => document.
-    getElementById(id).
-    scrollIntoView({block: "start",behavior: 'smooth'})
+    getElementById(id).scrollIntoView({block: "start",behavior: 'smooth'})
 
     return (
         <div className={s.nav}>
