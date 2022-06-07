@@ -6,7 +6,7 @@ export const Educations = () => {
 
     const educations = [
         {id: v1(), title: 'BNTU', year: '2005-2010', description: 'Engineer-electrician'},
-        {id: v1(), title: 'IT-INCUBATOR', year: '2022', description: 'Frontend developer (React / Redux / Typescript)'},
+        {id: v1(), title: 'IT-INCUBATOR', year: '2021-2022', description: 'Frontend developer (React / Redux / JS / TS)'},
     ]
     return (
         <div className={s.educations}>

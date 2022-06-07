@@ -1,4 +1,4 @@
-import s from './ContactBlock.module.scss';
+import s from './ContactBlock.module.scss'
 
 export const ContactBlock = ({title, data, a}) => {
     return (

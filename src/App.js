@@ -1,4 +1,4 @@
-import './App.scss';
+import s from './App.module.scss';
 import {Header} from "./header/Header";
 import {Profile} from "./profile/Profile";
 import {Skills} from "./skills/Skills";
@@ -12,12 +12,12 @@ import {Footer} from "./footer/Footer";
 
 function App() {
     return (
-        <div className='App'>
-            <div className='generalPageContainer'>
+        <div className={s.app}>
+            <div className={s.generalPageContainer}>
                 <Header/>
                 <Main/>
             </div>
-            <div className='container'>
+            <div className={s.container}>
                 <Profile/>
                 <Skills/>
                 <Educations/>

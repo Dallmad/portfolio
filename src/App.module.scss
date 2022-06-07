@@ -1,0 +1,38 @@
+/** {
+    border: red solid 1px;
+}*/
+
+.app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2a2a2a;
+    color: #b2babe;
+    .generalPageContainer {
+        background-image: url('https://abrakadabra.fun/uploads/posts/2021-12/1640975610_1-abrakadabra-fun-p-temnie-oboi-na-noutbuk-1.jpg');
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 80%;
+    }
+    h2 {
+        font-weight: 700;
+        margin-top: 65px;
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 3px;
+        line-height: 1.2;
+        font-size: 28px;
+    }
+    h1 h3 h4 {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+}
+
+
+
+
+
+
