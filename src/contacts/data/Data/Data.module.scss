@@ -1,38 +1,39 @@
 .data {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    min-width: 270px;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
-.inputBlock {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  min-width: 270px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+
+  .inputBlock {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-}
-.input {
-    width: 45%;
-}
-@media screen and (max-width: 460px){
-    .inputBlock {
-        flex-direction: column;
+    @media screen and (max-width: 460px) {
+      flex-direction: column;
     }
+
     .input {
+      width: 45%;
+      @media screen and (max-width: 460px) {
         width: 97%;
         margin-bottom: 10px;
+      }
     }
-}
-.text {
+  }
+
+  .text {
     max-height: 300px;
     margin: 30px 0 20px 0;
     padding-top: 10px;
     width: 98%;
     height: 100px;
     resize: none;
-}
-.button {
+  }
+
+  .button {
     font-family: 'Montserrat', sans-serif;
     border: 0 none;
     border-radius: 0;
@@ -41,4 +42,7 @@
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
     cursor: pointer;
+  }
 }
+
+

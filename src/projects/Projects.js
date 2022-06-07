@@ -1,4 +1,4 @@
-import s from './Projects.module.css';
+import s from './Projects.module.scss';
 import {Project} from './project/Project';
 import logoTodolist from '../assets/images/logo_todo.png'
 import socialNetwork from '../assets/images/logo_social_network.jpg'

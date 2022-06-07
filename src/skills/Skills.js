@@ -1,4 +1,4 @@
-import s from './Skills.module.css';
+import s from './Skills.module.scss';
 import {Skill} from "./skill/Skill";
 import {v1} from "uuid";
 import html from '../assets/images/logo_html5.png'
@@ -28,7 +28,7 @@ export const Skills = () => {
     return (
 
         <div id='skills' className={s.skills}>
-            <h2 className={s.title}>SKILLS</h2>
+            <h2>SKILLS</h2>
             <div className={s.skillsContainer}>
                 {skills.map( s => <Skill key={s.id} title={s.title} img={s.img}/>)}
             </div>

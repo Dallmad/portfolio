@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './Data.module.css';
+import s from './Data.module.scss';
 
 
 export const Data = () => {

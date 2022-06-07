@@ -1,4 +1,4 @@
-import s from './Project.module.css';
+import s from './Project.module.scss';
 import {Modal} from "../../components/Modal/Modal";
 import {useState} from "react";
 
@@ -33,29 +33,20 @@ export const Project = ({title, description, logo, linkToGHPage, linkToCode}) =>
     }
     return (
         <div className={s.project}>
-            <div className={s.logo_wrapper}>
                 <img
                     src={logo}
                     alt={'project logo'}
                     className={s.logo}
                     onClick={logoHandler}
                 />
-
-            </div>
             <h3 className={s.title}>
                 {title}
             </h3>
             <div className={s.description}>
                 {description}
                 <button onClick={() => editShowModal(true)} className={s.link}>. . . more</button>
-                {/*<a href={linkToCode} className={s.link}>. . . more</a>*/}
             </div>
-            <div  style={{
-                display: 'flex',
-                flexFlow: 'column',
-                alignItems: 'center',
-                justifyContent: 'center',
-            }}>
+            <div  className={s.containerModal}>
                 <Modal editShowModal={editShowModal} showModal={showModal}>
                     <div className={s.bigModal}>
                         <div className={s.titleModal}>

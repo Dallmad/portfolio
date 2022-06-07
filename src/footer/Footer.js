@@ -1,5 +1,4 @@
-
-import s from './Footer.module.css';
+import s from './Footer.module.scss';
 import git from '../assets/images/logo_git.png'
 import linkedIn from '../assets/images/logo_linkedIn.png'
 import telegram from '../assets/images/logo_telegram.png'
@@ -20,7 +19,7 @@ export const Footer = () => {
         <>
             <div className={s.container}>
                 {footerContainer.map( (f, i) =>
-                    <div key={f+i} className={s.logo_wrapper}>
+                    <div key={f+i}>
                         <img src={f.logo}  onClick={()=>logoHandler(f.link)} className={s.logo}/>
                     </div>
                 )}

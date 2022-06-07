@@ -1,0 +1,24 @@
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  color: #b2babe;
+  padding: 5px;
+
+  .block {
+    flex-direction: column;
+    margin-bottom: 65px;
+
+    .data {
+      margin-top: 60px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
+
+

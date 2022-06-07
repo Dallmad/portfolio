@@ -1,4 +1,4 @@
-import s from './Educations.module.css';
+import s from './Educations.module.scss';
 import {Education} from "./education/Education";
 import {v1} from "uuid";
 

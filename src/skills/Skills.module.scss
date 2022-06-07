@@ -1,0 +1,18 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  flex-wrap: wrap;
+
+  .skillsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 65px;
+    max-width: 70%;
+  }
+}
+
