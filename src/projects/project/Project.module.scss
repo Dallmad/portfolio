@@ -1,5 +1,5 @@
 @import '../../common/styles/mixins';
-@import '../../common/styles/variables/variables';
+@import '../../common/styles/variables';
 
 .project {
   margin: 10px 10px;
@@ -15,6 +15,7 @@
 
     &:hover {
       opacity: 0.4;
+      transition: 0.5s;
     }
   }
 

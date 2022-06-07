@@ -1,4 +1,4 @@
-@import 'common/styles/variables/variables';
+@import 'common/styles/variables';
 @import 'common/styles/mixins';
 
 /** {
@@ -25,6 +25,9 @@
         margin-top: 65px;
         text-align: center;
         letter-spacing: 3px;
+        @media screen and (max-width: 800px) {
+            margin-top: 20px;
+        }
     }
 }
 
