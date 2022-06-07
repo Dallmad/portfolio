@@ -8,9 +8,7 @@ import {Contacts} from "./contacts/Contacts";
 import {Main} from "./main/Main";
 import {Footer} from "./footer/Footer";
 
-
-
-function App() {
+export const App = () => {
     return (
         <div className={s.app}>
             <div className={s.generalPageContainer}>
@@ -28,5 +26,3 @@ function App() {
         </div>
     )
 }
-
-export default App;
