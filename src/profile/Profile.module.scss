@@ -1,10 +1,12 @@
+@import '../common/styles/mixins';
+
 .profile {
   text-align: center;
   background-color: inherit;
   padding: 10px;
 
   .text {
-    font-size: 18px;
+    @include text(1.2, 18px, 500);
     margin-bottom: 65px;
     max-width: 70%;
     margin-left: 15%;

@@ -1,0 +1,6 @@
+@mixin text( $lineHeight, $fontSize, $fontWeight) {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: $lineHeight;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+}

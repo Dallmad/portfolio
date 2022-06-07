@@ -33,6 +33,7 @@ export const Modal = (props) => {
                     justifyContent: 'center',
                     background: 'lime',
                     zIndex: 21,
+                    color: '#2a2a2a',
                 }}
             >
                 {props.children}

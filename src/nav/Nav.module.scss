@@ -1,17 +1,18 @@
+@import '../common/styles/variables/variables';
+@import '../common/styles/mixins';
+
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #2a2a2a;
+  background-color: $backgroundColor;
   height: 100%;
   align-items: center;
   flex-wrap: wrap;
 
   .div {
+    @include text(1.2, 24px, 500);
     padding: 3px;
-    font-weight: 500;
-    font-size: 24px;
-    color: #b2babe;
     margin: 15px 35px;
     cursor: pointer;
   }

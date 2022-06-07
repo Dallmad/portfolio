@@ -1,3 +1,5 @@
+@import '../common/styles/mixins';
+
 .container {
   display: flex;
   justify-content: center;
@@ -19,7 +21,7 @@
 }
 
 .text {
-  font-size: 14px;
+  @include text(1.2, 16px, 500);
   display: flex;
   justify-content: center;
   margin-bottom: 10px;

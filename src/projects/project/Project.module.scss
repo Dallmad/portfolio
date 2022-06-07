@@ -1,3 +1,6 @@
+@import '../../common/styles/mixins';
+@import '../../common/styles/variables/variables';
+
 .project {
   margin: 10px 10px;
   padding: 3px;
@@ -18,18 +21,18 @@
   .title {
     display: flex;
     justify-content: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    @include text(1.2, 20px, 700);
   }
 
   .description {
-    font-family: 'Source Sans Pro', sans-serif;
+    @include text(1.2, 16px, 500);
 
     .link {
       background-color: inherit;
       border: none;
       cursor: pointer;
-      font-size: 14px;
-      color: #fff;
+      @include text(1.2, 16px, 500);
+      color: $textColor;
       opacity: 0.6;
     }
   }
@@ -52,8 +55,7 @@
       border-radius: 8px;
 
       .titleModal {
-        font-size: 18px;
-        font-weight: 500;
+        @include text(1.2, 18px, 500);
         line-height: 27px;
         text-align: left;
       }

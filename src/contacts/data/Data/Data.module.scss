@@ -1,3 +1,5 @@
+@import '../../../common/styles/mixins';
+
 .data {
   display: flex;
   flex-direction: column;
@@ -34,7 +36,7 @@
   }
 
   .button {
-    font-family: 'Montserrat', sans-serif;
+    @include text(1.2, 16px, 500);
     border: 0 none;
     border-radius: 0;
     height: 40px;
