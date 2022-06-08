@@ -1,40 +1,37 @@
 @import 'common/styles/variables';
 @import 'common/styles/mixins';
 
-/** {
-    border: red solid 1px;
-}*/
-
 .app {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: $backgroundColor;
-    color: $textColor;
-    .generalPageContainer {
-/*        background-size: 100%;*/
-        background-repeat: no-repeat;
-        background-image: url('https://abrakadabra.fun/uploads/posts/2021-12/1640975610_1-abrakadabra-fun-p-temnie-oboi-na-noutbuk-1.jpg');
-    @media screen and (min-width: 1300px){
-        background-size: 100%;
-    }
-    }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $backgroundColor;
+  color: $textColor;
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        width: 80%;
+  .generalPageContainer {
+    background-repeat: no-repeat;
+    background-image: url('https://abrakadabra.fun/uploads/posts/2021-12/1640975610_1-abrakadabra-fun-p-temnie-oboi-na-noutbuk-1.jpg');
+    @media screen and (min-width: 1300px) {
+      background-size: 100%;
     }
-    h2 {
-        @include text(1.2, 28px, 700);
-        margin-top: 65px;
-        text-align: center;
-        letter-spacing: 3px;
-        @media screen and (max-width: 800px) {
-            margin-top: 20px;
-        }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  h2 {
+    @include text(1.2, 28px, 700);
+    margin-top: 65px;
+    text-align: center;
+    letter-spacing: 3px;
+    @media screen and (max-width: 800px) {
+      margin-top: 20px;
     }
+  }
 }
 
 
