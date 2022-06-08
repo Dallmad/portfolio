@@ -12,7 +12,12 @@
     background-color: $backgroundColor;
     color: $textColor;
     .generalPageContainer {
+/*        background-size: 100%;*/
+        background-repeat: no-repeat;
         background-image: url('https://abrakadabra.fun/uploads/posts/2021-12/1640975610_1-abrakadabra-fun-p-temnie-oboi-na-noutbuk-1.jpg');
+    @media screen and (min-width: 1300px){
+        background-size: 100%;
+    }
     }
 
     .container {
