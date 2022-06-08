@@ -13,17 +13,17 @@
 
   .burgerNavItems {
     position: absolute;
-    right: 0;
+/*    right: 0;
     left: 0;
-    top: 0;
+    top: 0;*/
     height: 100px;
     padding: 20px;
     transform: translate(0, -450px);
-    transition: 1s;
+/*    transition: 1s;*/
 
-    .div {
-      @include text(1.2, 24px, 500);
-      padding: 3px;
+   /* .div {
+      @include text(1.2, 24px, 700);
+      padding: 10px;
       margin: 15px 35px;
       cursor: pointer;
 
@@ -31,7 +31,7 @@
         color: #6c7173;
         transition: 0.5s;
       }
-    }
+    }*/
   }
   .show {
     transform: translate(0, 0);
@@ -39,11 +39,9 @@
   .burgerButton {
     width: 30px;
     height: 30px;
-    background-color: $backgroundColor;
     position: absolute;
     top: 10px;
     right: 20px;
-    border: 1px solid red;
   }
 
   @media screen and (min-width: 805px) {

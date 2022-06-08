@@ -9,9 +9,10 @@ export const Main = () => {
             <Fade bottom>
                 <div className={s.containerForTitle}>
                     <span>Welcome</span>
-                    <div>
+                    <div className={s.titleContainer}>
                         <span className={s.span_secondLine}>I'm</span>
-                        <span className={s.title}>Dzmitry Yakubyshyn</span>
+                        <span className={s.title}>Dzmitry</span>
+                        <span className={s.titleLastName}>Yakubyshyn</span>
                     </div>
                 </div>
                 <Tilt options={{max: 45}}>
