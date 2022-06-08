@@ -52,12 +52,12 @@ export const Project = ({title, description, logo, linkToGHPage, linkToCode}) =>
                         <div className={s.titleModal}>
                             This link for true dev
                         </div>
-                        I need check you skill)
+                        I need check you skills)
                         <div>2 * 2 = ?</div>
                         <input value={answer} onChange={(e) => setAnswer(e.currentTarget.value)}/>
                         <div className={s.containerBtn}>
                             <button onClick={() => editShowModal(false)}>return</button>
-                            <button onClick={toCodeHandler}>check my skill</button>
+                            <button onClick={toCodeHandler}>check my skills</button>
                         </div>
                     </div>
                 </Modal>
@@ -67,7 +67,7 @@ export const Project = ({title, description, logo, linkToGHPage, linkToCode}) =>
                             Incorrect answer
                         </div>
                         <div>
-                            <button onClick={() => editShowSecondModal(false)}>return</button>
+                            <button onClick={() => editShowSecondModal(false)}>back</button>
                             <button onClick={toPageHandler}>try again</button>
                         </div>
                     </div>
