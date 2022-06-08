@@ -9,7 +9,7 @@ export const Footer = () => {
     const footerContainer = [
         {name: 'linkedIn', logo: linkedIn, link: 'https://www.linkedin.com/in/dzmitry-yakubyshyn-432267235/'},
         {name: 'gitHub', logo: git, link: 'https://github.com/Dallmad'},
-        {name: 'telegram', logo: telegram, link: 'https://github.com/Dallmad'},
+        {name: 'telegram', logo: telegram, link: 'https://t.me/dallmad'},
     ]
 
     const logoHandler = (link) => {
