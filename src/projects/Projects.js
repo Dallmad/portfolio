@@ -8,11 +8,11 @@ import Fade from 'react-reveal/Fade'
 export const Projects = () => {
     const projects = [
         {
-            title: 'Social Neetwork',
-            description: 'SPA for social actions - messaging and blogging.',
-            logo: socialNetwork,
-            linkToGHPage: 'https://dallmad.github.io/social_network_samurai/',
-            linkToCode: 'https://github.com/Dallmad/social_network_samurai'
+            title: 'Cards',
+            description: 'SPA for learning by cards.',
+            logo: logoCards,
+            linkToGHPage: 'https://dallmad.github.io/my_friday/',
+            linkToCode: 'https://github.com/Dallmad/my_friday'
         },
         {
             title: 'Todolist',
@@ -22,12 +22,12 @@ export const Projects = () => {
             linkToCode: 'https://github.com/Dallmad/it-incubator-todolist'
         },
         {
-            title: 'Cards',
-            description: 'SPA for learning by cards.',
-            logo: logoCards,
-            linkToGHPage: 'https://dallmad.github.io/my_friday/',
-            linkToCode: 'https://github.com/Dallmad/my_friday'
-        }
+            title: 'Social Neetwork',
+            description: 'SPA for social actions - messaging and blogging.',
+            logo: socialNetwork,
+            linkToGHPage: 'https://dallmad.github.io/social_network_samurai/',
+            linkToCode: 'https://github.com/Dallmad/social_network_samurai'
+        },
     ]
 
     return (
