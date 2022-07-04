@@ -11,12 +11,11 @@ export const Modal = (props) => {
                     position: 'fixed',
                     top: '0px',
                     left: '0px',
-                    width: '100vw',
-                    height: '100vh',
+                    width: '100%',
+                    height: '100%',
                     background: 'black',
                     opacity: 0.35,
                     zIndex: 20,
-
                 }}
                 onClick={()=>props.editShowModal(false)}
             />}
