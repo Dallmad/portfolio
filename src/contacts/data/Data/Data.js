@@ -82,7 +82,7 @@ export const Data = () => {
             await api.sendMessage(data)
         } catch (error) {
             if (error instanceof Error) {
-                console.log('error')
+                console.log(error.name + ': ' + error.message);
             }
         }
     }
