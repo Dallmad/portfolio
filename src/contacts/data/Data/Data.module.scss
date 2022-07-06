@@ -18,15 +18,23 @@
     }
 
     .input {
-      width: 45%;
+
+      min-width: 150px;
+      @include text(1.2, 16px, 500);
+      //width: 45%;
       @media screen and (max-width: 460px) {
         width: 97%;
         margin-bottom: 10px;
       }
     }
+    /*.p {
+      width: 97%;
+      margin-bottom: 10px;
+    }*/
   }
 
   .text {
+    @include text(1.2, 16px, 500);
     max-height: 300px;
     margin: 30px 0 20px 0;
     padding-top: 10px;
@@ -44,6 +52,14 @@
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
     cursor: pointer;
+  }
+  .feedback {
+    @include text(1.2, 24px, 700);
+    color: #3f7719;
+  }
+  .feedback_error {
+    @include text(1.2, 24px, 700);
+    color: #ad2a2a;
   }
 }
 
