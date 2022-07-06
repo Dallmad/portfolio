@@ -81,7 +81,7 @@ export const Data = () => {
                     className={s.input}
                     name={'email'}
                     onChange={(e) => handleChange(e)}
-                    value={inputValues.contacts}
+                    value={inputValues.email}
                 />
             </div>
             <textarea
