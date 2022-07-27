@@ -31,7 +31,6 @@ export const Projects = () => {
     ]
 
     return (
-
         <div id='projects' className={s.projects}>
             <h2>PROJECTS</h2>
             <Fade bottom>
