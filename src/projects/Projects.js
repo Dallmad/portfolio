@@ -19,7 +19,7 @@ export const Projects = () => {
             description: 'SPA for managing to-do lists and their items.',
             logo: logoTodolist,
             linkToGHPage: 'https://dallmad.github.io/my_todo/',
-            linkToCode: 'https://github.com/Dallmad/it-incubator-todolist'
+            linkToCode: 'https://github.com/Dallmad/my_todo'
         },
         {
             title: 'Social Neetwork',
@@ -31,7 +31,6 @@ export const Projects = () => {
     ]
 
     return (
-
         <div id='projects' className={s.projects}>
             <h2>PROJECTS</h2>
             <Fade bottom>
