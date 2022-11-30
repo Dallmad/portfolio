@@ -6,7 +6,7 @@ import {ContactBlock} from "./contactBlock/ContactBlock";
 export const Contact = () => {
     const dataForContactBlock = [
         {title: 'Phone', data: '+375-29-506-40-04', a: 'tel:+375-29-506-40-04'},
-        {title: 'Email', data: 'maddal.privod@gmail.com', a: ''},
+        {title: 'Email', data: 'yakubyshyndzmitry@gmail.com', a: ''},
         {title: 'My Location', data: 'Minsk, Belarus', a: ''},
     ]
     return (

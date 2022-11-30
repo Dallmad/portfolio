@@ -10,7 +10,7 @@ export const Educations = () => {
         {
             id: v1(),
             title: 'IT-INCUBATOR',
-            year: '2021-2022',
+            year: '2021',
             description: 'Frontend developer (React / Redux / JS / TS)'
         },
     ]
